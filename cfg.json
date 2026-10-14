@@ -1,0 +1,37 @@
+{
+  "vk": {
+    "requestdelay": 600,
+    "userAgent": "YOUR_USER_AGENT",
+    "validuserids": {
+      "VK_USER_ID": true
+    },
+    "schedule": {
+      "url": "https://vk.com/topic-GROUP_ID"
+    }
+  },
+  "telegram": {
+    "token": "YOUR_TELEGRAM_BOT_TOKEN",
+    "admins": {
+      "YOUR_TELEGRAM_ID": true
+    },
+    "emoji": {
+      "groups": "🎓",
+      "people": "💼",
+      "automatization": "⚙️",
+      "subs": "📫",
+      "getsubs": "📩",
+      "close": "❌"
+    }
+  },
+  "excel": {
+    "emptyellstyle": {
+      "value": " ",
+      "fill": {
+        "type": "pattern",
+        "pattern": "solid",
+        "fgColor": { "argb": "FFFFFFFF" },
+        "bgColor": { "argb": "FF000000" }
+      }
+    }
+  }
+}
