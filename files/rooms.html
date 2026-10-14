@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 0px;
+            border-bottom: 2px solid gray;
+        }
+
+        th {
+            background-color: #f5f5f5;
+        }
+
+        .td-room {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+        }
+
+        .room {
+            padding: 15px 10px;
+            border-right: 1px solid;
+
+            border-bottom: 1px solid;
+            min-width: 40px;
+            text-align: center;
+            margin-right: 1px;
+        }
+
+        .head {
+            border-bottom: 0px;
+        }
+    </style>
+    </style>
+</head>
+<body>
+<table>
+  <th class="head" style="text-align: left;">{{DAY}}</th>
+</table>
+<table>
+    <tr>
+        <th>Пара</th>
+        <th>Время</th>
+        <th>Кабинеты</th>
+    </tr>
+    {{BODY}}
+</table>
+</body>
+</html>
